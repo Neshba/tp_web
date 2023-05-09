@@ -1,0 +1,290 @@
+body {
+cursor: url(img/cursor.png), pointer;
+}
+
+nav {
+position: fixed;
+width: 100%;
+height: 50px;
+background-color: rgb(138, 180,21);
+border-radius: 4px;
+z-index: 100;
+}
+
+#idNav 	ul {
+			position: relative;
+			display: flex;
+			margin:auto ;
+			float: right;
+	}
+
+
+#idNav	ul li {
+		list-style: none;
+		padding: 20px;
+		font-size: 20px;
+		line-height: 15px;	
+}
+
+#idNav	ul li a:hover {
+	font-weight: bold;
+	color:rgb(9, 11, 95);
+}
+#idNav	ul li a:active {
+	font-weight: bolder;
+	color: rgb(90, 110, 195);
+}
+
+
+	a {
+text-decoration: none;
+color:rgb(0, 0, 15);
+font-family: 'Merriweather', serif;	
+
+}
+
+.hDos {
+		text-align: center;
+		font-size: 35px;
+		font-family: "Josefin Sans", sans-serif;
+}
+
+	.iconFoot {
+		width: 15px;
+		height: 15px;
+
+}
+
+	.imgnoticia {
+			padding: 10px;
+
+}
+	#notaPie {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background-image: url(img/fondoNota.jpg);
+
+}
+.notasAlPie {
+display: inline-block;
+font-size: 14px;
+width: 30%;
+height: 90px;
+background-image: url(img/fondoNota.jpg);
+color: rgb(250, 250, 250);
+text-align: center;
+margin: auto;
+
+}
+
+
+	#calaDeH {
+		
+		display: flex;
+
+}
+
+.refNom {
+		color:orange;
+}
+
+#imglogo {
+position: relative;
+flex-wrap: wrap;
+z-index: 1000;
+}
+
+
+
+.nota {
+padding: 40px 20px;
+text-align: justify;
+font-size: 20px;
+
+}
+
+	#vEpic {
+		width: 60%;
+		height: 400px;
+		margin: auto;
+
+
+}
+#notaEpic {
+		display: flex;
+		width: 100%;
+		height: 180px;
+		background-image: url("img/mosaico.jpg");
+		padding: 100 10px;
+		font-size: 20px;
+
+}
+
+#notaEpic p {
+	margin: auto 80px;
+}
+
+
+#unoH {
+		font-family: 'Merriweather', serif;
+		margin: auto;
+		font-size: 50px;
+		text-shadow: rgb(152, 182, 165) 5px 2px;
+}
+
+	.cuerpo {
+		width: 100%;
+		height: 540px;
+		background-color: rgb(235, 235, 225);
+		display: flex;
+
+
+}
+	.cuerpoSpagina {
+			align-items: center;
+			background-image: url(img/fondoEpic.jpg);
+			background-size: 100% 100%;
+		
+
+
+}
+	.cuerpo1 {
+		position: relative;
+		width: 100%;
+		height: 600px;
+		display: flex;	
+		background:red ;	
+
+	}
+	.imgFondo {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+	}
+
+	.imgGaleria {
+		width: 30%;
+		height: 40%;
+		margin: 0 auto;
+	
+
+}
+	.cuerpo2 {
+		position: absolute;
+		justify-content: space-between;
+		align-items: flex-end;
+		display: flex;
+		padding: 10px;		
+		width: 100%;
+		height: 600px;
+
+	}
+
+.divHistoria {
+
+width: 100%;
+height: auto;
+border: 2px solid rgb(138, 180,21);
+box-shadow: 3px 3px 4px ;
+margin: 0 0 5px 0;
+
+
+
+}
+.divHistoria p {
+		padding: 5px;
+}
+	.divHistoria img {
+		position: relative;
+		width: 15%;
+		height: 100%;
+		margin: 0 42.5% 9px ;
+		border-radius: 4px ;
+
+}
+
+	#padreNotas {
+		margin: 10px;
+		width: 100%;
+		flex-direction: column;
+}
+	.hist {
+width: 100%;
+height: 1750px;
+}
+
+footer {
+background: rgba(0, 0, 0, .9);
+text-align: center;
+}
+
+	.footDiv, .footDiv li a {
+color:rgb(250, 250, 250);
+}
+
+	H3 {
+		text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+footer {
+        position: relative;
+        display: flex;
+        background-color:blue;
+ 	   	width: 100%;
+	    text-align: center;
+
+     
+      }
+     
+      footer ul li {
+        display: inline-block;
+        margin: 5px;
+		text-decoration-line: none;
+
+
+      }
+      footer ul li a {
+        
+        color:red ;
+  		font-size: 15px;
+  		margin: 0px 12px 122px 0;
+  
+      }
+
+      footer p  { 
+        color:red ;  
+	    
+    }
+    .footDiv {
+		display: flex; 
+	 	margin: 20px;
+		border: solid 2px, green;
+
+    }
+
+    */
